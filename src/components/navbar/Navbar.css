@@ -1,0 +1,18 @@
+ul li{
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.Navbar{
+    text-align: center;
+}
+.Navbar-container ul{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.Navbar-container{
+    padding-top: 72px;
+}

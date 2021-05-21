@@ -1,0 +1,42 @@
+
+.hero-left{
+    position: relative;
+}
+.heroImg1{
+    width: 500px;
+    max-width: 100%;
+    background:url(./heroBg.png);
+    background-size:cover;
+}
+.scroll{
+  text-align: center;
+  margin-top: 60px;
+}
+.scroll p{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    padding-bottom: 5px;
+}
+h1{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 90px;
+    line-height: 108px;
+}
+.deco1{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    max-width: 100%;
+}
+@media screen and (max-width:1089px){
+    .deco1{
+        max-width: 150px;
+    }
+}
+@media screen and (max-width:999px){
+    .deco1{
+        max-width: 100px;
+    }
+}
